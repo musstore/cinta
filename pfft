@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confess Your Love</title>
+  <link rel="stylesheet" href="pfft.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Katakan dengan Cinta</h1>
+    <p>Sampaikan Perasaanmu Kepadanya</p>
+    <textarea id="loveMessage" placeholder="Hai.. sepertinya aku suka kepadamu "></textarea>
+    <button id="confessButton">Kirim!</button>
+    <div id="response" class="hidden">
+      <h2>Perasaan Telah dikirim!</h2>
+      <p id="confession"></p>
+    </div>
+  </div>
+
+  <script src="pfft.js"></script>
+</body>
+</html>
